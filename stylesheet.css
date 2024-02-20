@@ -83,8 +83,9 @@ section{
      width:auto;
 }
 .home{
-    display:flex;
-   
+     display:flex;
+    background: url(img/blacked.gif)no-repeat;
+    background-size: cover;
      
      align-items: center;
        padding:0 9%;
@@ -131,6 +132,7 @@ section{
     width:30rem;
     height:40rem;
     background-size: cover;
+    border-radius: 30%;
     
 }
                  /*---adding new layer to image for hover*/
@@ -147,10 +149,10 @@ section{
 }
 #coverhover:hover{
     opacity:.7;
-    border-radius: 50%;
+  
 
     background-color:var(--bg-color);
-    background:url("bc.jpg") ;
+    
 
 }
 #name{
@@ -504,7 +506,7 @@ button{
      align-self: auto;
      padding:10vh;
      left:30%;
-     background-image: url("gifimage.gif");   
+     background-image: url("img/gifimage.gif");   
 
   }
   .about{
@@ -522,6 +524,14 @@ button{
   }
  
   /* skills prograss*/
+
+  .myskil ,h1{
+    font-size: 5rem;
+    text-align: center;
+  }
+#skil{
+  color: #03e9f4;
+}
   
 .container {
   width: 110rem;

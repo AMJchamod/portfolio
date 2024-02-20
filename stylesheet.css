@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
 *{
     margin:0;
     padding:0;
@@ -119,51 +121,7 @@ section{
 }
 
   
-  .social{
-    position :absolute;
-    bottom:4rem;
-    width:170px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .social a{
-    top:11rem;
-     position: relative;
-     display: inline-flex;
-     justify-content:center;
-     align-items:center;
-     width:40px;
-     height:40px;
-     background:transparent;
-     border:.2rem solid var(--main-color);
-     font-size: 20PX;
-     color: var(--main-color);
-     border-radius: 50%;
-     z-index:-1;
-     overflow:hidden;
-  }
-    .social a::before {
-     content:'';
-     position:absolute;
-     top:0;
-     left:0;
-     width:50%;
-     height:100%;
-     background:red;
-     z-index:1;
-     transition: .5s;
-     cursor: pointer;
-    }
-
- .social :hover {
-    color:var(--main-color);
-    cursor: pointer;
- }
-
- .sociala:hover::before{
-    width:100%;
-    
- }
+  
  #cover{
     position:relative;
     bottom:200px;
@@ -174,6 +132,24 @@ section{
     height:40rem;
     background-size: cover;
     
+}
+                 /*---adding new layer to image for hover*/
+#coverhover{
+    position: absolute;
+    bottom:200px;
+    top:29vh;
+    left:74%;
+    width:35rem;
+    height:40rem;
+    
+   background: transparent;
+    transition: 3s;
+}
+#coverhover:hover{
+    opacity:.7;
+
+    background-color:var(--bg-color);
+
 }
 #name{
     position: relative;
@@ -499,4 +475,44 @@ button{
       transform: translate(60px, -32px) translateZ(0);
     }
   }
-  
+  .social{
+     
+       position:relative;
+       bottom:2vh;  
+       left: 20vh;
+       padding:0;
+       font-size: 50px;
+       cursor: pointer;
+         
+  }
+  #aboutimg{
+       width:70vh;
+     height:60vh;
+     border-radius:50%;
+     
+  }
+  .aboutcontainer{
+    display:flex;
+     position: relative;
+     justify-content: center;
+     border:1px solid black;
+     border-radius:50%;
+     width :100vh;
+     height:80vh;
+     align-self: auto;
+     padding:10vh;
+     left:30%;
+     background-image: url("gifimage.gif");   
+
+  }
+  #about{
+    background-color: var(--c-color-3);
+  }
+  .aboutp{
+    font-family: cursive;
+    font-size:medium;
+  }
+  .myskill{
+    min-height: auto;
+    padding-bottom: 7rem;
+  }

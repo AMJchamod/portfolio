@@ -827,3 +827,21 @@ button{
    bottom: 8vh;
    background-color: black;
  }
+ .Achivement{
+  position: relative;
+  background-color: black;
+  bottom: 10vh;
+ }
+ #abouthackthon{
+  font-size: 2rem;
+  position:relative;
+  top:8vh;
+ }
+ #more {display: none;}  /*readmebutton*/
+#myBtn{
+  background-color: red;
+  position: relative;
+  top:11vh;
+  height: 3vh; 
+  padding-bottom: 6vh;
+}

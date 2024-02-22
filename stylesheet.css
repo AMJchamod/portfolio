@@ -30,7 +30,7 @@
  }
 
 body{
-    background:var(--bg-color);
+    background:var(black);
     color:var(--text-color);
 }
 .header{
@@ -161,7 +161,7 @@ section{
 }
 #quat{
     position:relative;
-    bottom:17rem;
+    bottom:20rem;
 }
  
 
@@ -483,16 +483,31 @@ button{
      
        position:relative;
        bottom:2vh;  
-       left: 20vh;
-       padding:0;
+       left: 0;
+       padding-left:17vh;
        font-size: 50px;
        cursor: pointer;
+       background-color:black;
          
   }
+  .hr{
+    position: relative;
+     width:100%;
+     height: 5vh;
+     bottom: 4vh;
+     background-color: black;
+   }
+   #hr2{
+    position: relative;
+     width:100%;
+     height: 5vh;
+     bottom: 6vh;
+     background-color: black;
+   }
   #aboutimg{
-       width:70vh;
-     height:60vh;
-     border-radius:50%;
+        width:70vh;
+        height:70vh;
+         border-radius:50%;
      
   }
   .aboutcontainer{
@@ -509,28 +524,59 @@ button{
      background-image: url("img/gifimage.gif");   
 
   }
+  #about{
+    background-color: black;
+    position: relative;
+    bottom:5vh;
+  }
   .about{
-    background-color:var(--second-bg-color);
+    
     padding-right: 10rem;
   }
   .aboutp{
     font-family: cursive;
     font-size:medium;
   }
+  .heading{
+      font-size: 4rem;
+      text-align: center;
+      position: relative;
+      left:7vh;
+      color: #fccb06;
+  }
   .myskil{
+    position: relative;
+    bottom:6vh;
     min-height: auto;
     padding-bottom: 7rem;
-    background-color: red;
+    background-color:black;
+  }
+  .myskil , h3{
+     position: absolute;
+     left: 5 vh;
+     font-size: 4vh;
+     color: #fccb06;
+    
+
+  }
+  #Frameworks{
+    position: absolute;
+    left: 19vh;
+    bottom: 172vh;
+  
   }
  
   /* skills prograss*/
 
   .myskil ,h1{
+    position: relative;
+    bottom:7vh ;
     font-size: 5rem;
     text-align: center;
+    padding-bottom: 2rem;
   }
 #skil{
-  color: #03e9f4;
+  color:  #fccb06;
 }
   
 .container {
@@ -542,8 +588,9 @@ button{
   flex-wrap: wrap;
   gap: 80px 100px;
   overflow: hidden;
-  background:#071b29;
+  background:black;
   padding-right: 20vh;
+  left: 2vh;
 }
 
 .box {
@@ -734,6 +781,49 @@ button{
   flex-wrap: wrap;
   gap: 80px 100px;
   overflow: hidden;
-  background:#071b29;
+  background:black;
   padding-right: 20vh;
 }
+.skilcontainer3{
+  width: 110rem;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px 100px;
+  overflow: hidden;
+  background:black;
+  padding-right: 20vh;
+}
+.skilcontainer4{
+  width: 110rem;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px 100px;
+  overflow: hidden;
+  background:black;
+  padding-right: 20vh;
+}
+.skilcontainer5{
+  width: 110rem;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 80px 100px;
+  overflow: hidden;
+  background:black;
+  padding-right: 20vh;
+}
+#hr4{
+  position: relative;
+   width:100%;
+   height: 5vh;
+   bottom: 8vh;
+   background-color: black;
+ }

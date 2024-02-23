@@ -535,15 +535,15 @@ button{
     padding-right: 10rem;
   }
   .aboutp{
-    font-family: cursive;
+    font-family: Poppins, sans-serif;
     font-size:medium;
   }
-  .heading{
+  #heading{
       font-size: 4rem;
       text-align: center;
       position: relative;
       left:7vh;
-      color: #fccb06;
+
   }
   .myskil{
     position: relative;
@@ -784,6 +784,8 @@ button{
   overflow: hidden;
   background:black;
   padding-right: 20vh;
+  border: 3px solid white;
+  border-color: rgb(255, 105, 180);
 }
 .skilcontainer3{
   width: 110rem;
@@ -832,6 +834,7 @@ button{
   position: relative;
   background-color: black;
   bottom: 10vh;
+  height: 200vh;
  }
  #abouthackthon{
   font-size: 2rem;
@@ -879,3 +882,73 @@ button{
   opacity: 0.7;
   border-radius: 50%;
 }
+#hr5{
+  position: relative;
+  top:75vh;
+  background: black;
+  width:120%;
+  height: 5vh;
+  left: -20vh;
+
+  
+}
+ 
+  
+ 
+
+/*projects section*/
+#pheading{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: Poppins, sans-serif;
+}
+.projects{
+   position: absolute;
+   top:890vh;
+  width: 100%;
+  background-color: black;
+   
+
+   display: grid;
+   place-content: center;
+  
+
+  
+
+ 
+}
+body{
+  background-color: red;
+}
+.gallery {
+  --s: 150px; /* control the size */
+  --g: 10px;  /* control the gap */
+  --f: 1.5;   /* control the scale factor */
+  
+  display: grid;
+  gap: var(--g);
+  width: calc(3*var(--s) + 2*var(--g));
+  aspect-ratio: 1;
+  grid-template-columns: repeat(3,auto);
+  border:1vh solid white;
+
+}
+
+.gallery > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(80%);
+  transition: .35s linear;
+}
+
+.gallery img:hover{
+  filter: grayscale(0);
+  width:  calc(var(--s)*var(--f));
+  height: calc(var(--s)*var(--f));
+}
+

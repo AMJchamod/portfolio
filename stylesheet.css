@@ -610,12 +610,12 @@ button{
   border-radius: 75px;
 }
 
-.html {width: 90%; height: 5vh; background-color:red;  } /* Green */
-.css {width: 80%;  height: 5vh; background-color: red;} /* Blue */
-.js {width: 65%;  height: 5vh; background-color: red;} /* Red */
-.php {width: 60%; height: 5vh; background-color:red;} /* Dark Grey */
-
-  
+.html {width: 90%; height: 5vh; background-color:green;  } /* Green */
+.css {width: 80%;  height: 5vh; background-color: green;} /* Blue */
+.js {width: 65%;  height: 5vh; background-color: green;} /* Red */
+.php {width: 60%; height: 5vh; background-color:green;} /* Dark Grey */
+.angular {width: 50%; height: 5vh; background-color:green;}
+.springboot{width: 70%; height: 5vh; background-color:green;} 
 .css { animation-delay: 0.5s; }
 .js { animation-delay: 1s; }
 .php { animation-delay: 1.5s; }
